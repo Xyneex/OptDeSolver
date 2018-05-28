@@ -75,7 +75,7 @@ img{max-width:100%;}
     background: #1F1F1F;
 }
 .content_top{	
-	 background:url(../images/bg.png);
+	 background-image : url(../images/bg2.jpg);
 	 background-position:100% 100%;
    box-shadow:1px -1px 5px rgba(0, 0, 0, 0.36);
 	position:relative;
@@ -83,6 +83,8 @@ img{max-width:100%;}
 	-webkit-border-radius:10px 10px 0 0;
 	-moz-border-radius:10px 10px 0 0;
 	-o-border-radius:10px 10px 0 0;
+        background-repeat:no-repeat;
+        background-size:cover;
 }
 .content_top-left{
 	float:left;
